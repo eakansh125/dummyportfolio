@@ -8,21 +8,61 @@
     <link href="style.css" rel="stylesheet" />
 </head>
 <body>
-    <nav>
-        <div>Neog</div>
-            <ul>
-                <li>
-                    <a href="/">
+    <h2>@container</h2>
+    <h3>fluid container</h3>
+    <div class="container">End to end text goes here as this is a fluid container</div>
+    
+    <h3>center container</h3>
+    <div class="container container-center">Centered text goes here as this is a centered container</div>
+    
+    <hr>
+
+
+    <h2>@links</h2>
+    <a class="link primary-link" href="/">Primary link</a>
+    <a class="link secondary-link" href="/">Secondary link</a>
+    
+    <hr>
+
+    <h2>@lists</h2>
+        <h3>unordered list</h3>
+        <p>This list will not have bullets</p>
+         <ul class="list-non-bullet">
+             <li>item One</li>
+             <li>item Two</li>
+             <li>item Three</li>
+         </ul>
+         <h3>unordered inline list</h3>
+         <ul class="list-non-bullet">
+             <li class="list-items-inline">inline item One</li>
+             <li class="list-items-inline">inline item Two</li>
+             <li class="list-items-inline">inline item Three</li>
+         </ul>
+         <h3>reverse ordered list</h3>
+         <ol>
+             <li>item One</li>
+             <li>item Two</li>
+             <li>item Three</li>
+         </ol>
+    
+    <hr>
+
+    <h2>@nav</h2>
+    <nav class="navigation container">
+        <div class="nav-brand">Neog</div>
+            <ul class="list-non-bullet nav-pills">
+                <li class="list-items-inline">
+                    <a class="link link-active" href="/">
                         Home
                     </a>
                 </li>
-                <li>
-                    <a href="/">
+                <li class="list-items-inline">
+                    <a class="link" href="/">
                         Projects
                     </a>
                 </li>
-                <li>
-                    <a href="/">
+                <li class="list-items-inline">
+                    <a class="link" href="/">
                         Blogs
                     </a>
                 </li>
@@ -33,28 +73,13 @@
 
     <h2>@header</h2>
 
-    <header>
-        <img src="images/hero.svg" />
-        <h1>Heading here</h1>
+    <header class="hero">
+        <img class="hero-img" src="images/hero.svg" />
+        <h1 class="hero-heading">Shikamaru Nara the <span class="heading-inverted">web developer</span></h1>
     </header>
 
     <hr>
-
-    <h2>@container</h2>
-    <h3>fluid container</h3>
-    <div class="container">End to end text goes here as this is a fluid container</div>
-
-    <h3>center container</h3>
-    <div class="container container-center">Centered text goes here as this is a centered container</div>
-
-    <hr>
-
-    <h2>@links</h2>
-    <a class="link primary-link" href="/">Primary link</a>
-    <a class="link secondary-link" href="/">Secondary link</a>
-    
-    <hr>
-
+  
     <h2>@section</h2>
 
     <section>
