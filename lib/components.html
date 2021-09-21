@@ -1,15 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>home - Shikamaru Nara</title>
-    <link href="/style.css" rel="stylesheet">
+    <title>Document</title>
+    <link href="/style.css" rel="stylesheet" />
 </head>
+
 <body>
+    <h2>@container</h2>
+    <h3>fluid container</h3>
+    <div class="container">End to end text goes here as this is a fluid container</div>
+
+    <h3>center container</h3>
+    <div class="container container-center">Centered text goes here as this is a centered container</div>
+
+    <hr>
+
+
+    <h2>@links</h2>
+    <a class="link primary-link" href="/">Primary link</a>
+    <a class="link secondary-link" href="/">Secondary link</a>
+
+    <hr>
+
+    <h2>@lists</h2>
+    <h3>unordered list</h3>
+    <p>This list will not have bullets</p>
+    <ul class="list-non-bullet">
+        <li>item One</li>
+        <li>item Two</li>
+        <li>item Three</li>
+    </ul>
+    <h3>unordered inline list</h3>
+    <ul class="list-non-bullet">
+        <li class="list-items-inline">inline item One</li>
+        <li class="list-items-inline">inline item Two</li>
+        <li class="list-items-inline">inline item Three</li>
+    </ul>
+    <h3>reverse ordered list</h3>
+    <ol>
+        <li>item One</li>
+        <li>item Two</li>
+        <li>item Three</li>
+    </ol>
+
+    <hr>
+
+    <h2>@nav</h2>
     <nav class="navigation container">
-        <div class="nav-brand">Akatsuki</div>
+        <div class="nav-brand">Neog</div>
         <ul class="list-non-bullet nav-pills">
             <li class="list-items-inline">
                 <a class="link link-active" href="/">
@@ -17,71 +59,73 @@
                 </a>
             </li>
             <li class="list-items-inline">
-                <a class="link" href="/projects.html">
+                <a class="link" href="/">
                     Projects
                 </a>
             </li>
             <li class="list-items-inline">
-                <a class="link" href="/blogs.html">
+                <a class="link" href="/">
                     Blogs
                 </a>
             </li>
         </ul>
     </nav>
 
-    <!--Header-->
+    <hr>
+
+    <h2>@header</h2>
+
     <header class="hero">
-        <img class="hero-img" src="/images/hero.svg" />
+        <img class="hero-img" src="images/hero.svg" />
         <h1 class="hero-heading">Shikamaru Nara the <span class="heading-inverted">web developer</span></h1>
     </header>
 
-    <!--Sections-->
-    <section class="section ow">
-        <div class="container container-center">
-            <h1>Technologies</h1>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-                industry's standard
-                dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make
-                a type specimen
-                book.</p>
-        </div>
-    </section>
+    <hr>
+
+    <h2>@section</h2>
+
     <section class="section">
         <div class="container container-center">
-            <h1>Projects</h1>
+            <h1>white section</h1>
             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
                 industry's standard
                 dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make
                 a type specimen
                 book.</p>
-                <a class="link primary-link" href="/">See projects</a>
         </div>
+
     </section>
+
     <section class="section ow">
         <div class="container container-center">
-            <h1>Blogs</h1>
+            <h1>off white section</h1>
             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
                 industry's standard
                 dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make
                 a type specimen
                 book.</p>
-                <a class="link secondary-link" href="/">See projects</a>
         </div>
     </section>
 
+    <hr>
+
+    <h2>@footer</h2>
+
     <footer class="footer">
-        <div class="footer-header">Social media presence</div>
+        <div class="footer-header">Some small heading inside footer</div>
         <ul class="social-links list-non-bullet ">
             <li class="list-items-inline">
-                <a class="link" href="https://twitter.com/eakaansh">Twitter</a>
+                <a class="link" href="/">Twitter</a>
             </li>
             <li class="list-items-inline">
-                <a class="link" href="https://github.com/eakansh125">Github</a>
+                <a class="link" href="/">Github</a>
             </li>
             <li class="list-items-inline">
-                <a class="link" href="https://www.linkedin.com/in/eakansh-s-81b22721/">Links</a>
+                <a class="link" href="/">Links</a>
             </li>
         </ul>
     </footer>
+
 </body>
+
 </html>
