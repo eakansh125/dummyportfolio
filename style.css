@@ -9,6 +9,9 @@
 body {
     font-family: 'Montserrat', 
     sans-serif;
+    margin: 0px auto;
+    width: 100%;
+    max-width: 85%;
 }
 
 hr{
@@ -16,14 +19,19 @@ hr{
 }
 
 /**Container**/
+/* .master-container{
+    margin: 0rem;
+} */
 
 .container {
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 
 .container-center {
-    max-width: 600px;
+    /* max-width: 600px; */
+    max-width: 900px;
+    width: 100%;
     margin: auto;
 }
 
@@ -32,24 +40,30 @@ hr{
 .link {
     text-decoration: none;
     padding: 0.5rem 1rem;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+    box-sizing: border-box;
 }
 .primary-link{
     background-color: var(--primary-color);
-    border-radius: 0.5rem;
+    border-radius: 2rem;
     color: white;
+    padding: 0.6rem 1.2rem;
+    margin: 1rem auto;
+    max-width: 140px;
 }
 
 .secondary-link{
     color: var(--primary-color);
-    border-radius: 0.5rem;
+    border-radius: 2rem;
     border: 1px solid var(--primary-color);
+    padding: 0.6rem 1.2rem;
+    margin: 1rem auto;
+    max-width: 140px;
 }
 
 
 .list-non-bullet{
     list-style: none;
+    padding-inline-start: 0px;
 }
 
 .list-items-inline{
@@ -107,6 +121,10 @@ hr{
 
 .section{
     padding: 2rem;
+    padding-bottom: 3rem;
+    margin: 2rem 0;
+    border-radius: 1rem;
+    text-align: center;
 }
 
 .section h1{
@@ -116,6 +134,7 @@ hr{
 .ow{
     background-color: var(--off-white);
 }
+
 
 /**Footer**/
 
@@ -142,6 +161,21 @@ hr{
 
 /**Spaces**/
 
-.padding-md{
-    padding: 2rem;
+.showcase-list{
+    padding-bottom: 1.5rem;
+    border-radius: 1rem;
+    text-align: center;
+    margin: 3rem auto;
+}
+
+.showcase-list .link{
+    margin: 1rem 0.5rem;
+}
+
+.showcase-list h1{
+    margin: 0.5rem;
+}
+
+.showcase-list p{
+    margin: 2rem;
 }
